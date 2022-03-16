@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES imu_test
-  CATKIN_DEPENDS geometry_msgs roscpp std_msgs sensor_msgs tf2
+  CATKIN_DEPENDS geometry_msgs roscpp std_msgs sensor_msgs tf
   DEPENDS system_lib
 )
 
